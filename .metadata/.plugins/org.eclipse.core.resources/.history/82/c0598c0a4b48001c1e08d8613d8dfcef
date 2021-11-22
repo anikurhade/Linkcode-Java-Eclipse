@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Employee {
+	 int empId;
+	 String empName,empdeg,empwork;
+	 long empPhone;
+	 int annualsal;
+	 Scanner sc =new Scanner(System.in);
+	 void newemployee()
+	 {
+		    System.out.println("\n\n\t\t\t\t\t ------------------------------------------------------");
+			System.out.println("\t\t\t\t\t |                                                    |");
+			System.out.println("\t\t\t\t\t |\t\t    Welcome To Salary Manager \t      |");
+			System.out.println("\t\t\t\t\t |                                                    |");
+			System.out.println("\t\t\t\t\t ------------------------------------------------------");
+			System.out.println("\n\t\t\t\t\t\t\tEnter Your Data :- \n\t\t\t\t\t\t  Be Free Your date Is safe With Us ");
+			System.out.println("\n\n Your Name :-");
+			empName=
+			System.out.println("\n\n Your Contact Id :-");
+			System.out.println("\n\n Your Work Place Name :-");
+			System.out.println("\n\n Your Designation :-");
+
+	 }
+}

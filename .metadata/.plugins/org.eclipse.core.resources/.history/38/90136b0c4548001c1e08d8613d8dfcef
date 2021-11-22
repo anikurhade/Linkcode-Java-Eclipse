@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Student {
+Scanner sc =new Scanner(System.in);
+
+int studid;
+String studname;
+int s1,s2,s3,tot;
+float per;
+String grade;
+void CreateStudent()
+{
+System.out.println("-: Enter Student Data :-");	
+System.out.print("Student Id  :- ");
+studid=sc.nextInt();
+System.out.print("Student Name :- ");
+studname=sc.next();
+System.out.print("Maths Marks :- ");
+studid=sc.nextInt();
+System.out.print("English Marks :- ");
+studid=sc.nextInt();
+System.out.print("Scienece Marks :- ");
+studid=sc.nextInt();
+
+
+}
+}
+
+

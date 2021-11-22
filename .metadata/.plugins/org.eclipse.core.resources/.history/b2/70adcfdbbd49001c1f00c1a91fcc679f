@@ -1,0 +1,28 @@
+package com.entity;
+
+import java.util.Date;
+
+public class Student {
+int Stud_ID;
+String Stud_Name;
+Date Stud_ob;
+public int getStud_ID() {
+	return Stud_ID;
+}
+public void setStud_ID(int stud_ID) {
+	Stud_ID = stud_ID;
+}
+public String getStud_Name() {
+	return Stud_Name;
+}
+public void setStud_Name(String stud_Name) {
+	Stud_Name = stud_Name;
+}
+public Date getOb() {
+	return ob;
+}
+public void setOb(Date ob) {
+	this.ob = ob;
+}
+
+}

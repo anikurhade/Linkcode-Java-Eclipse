@@ -1,0 +1,46 @@
+package com.main;
+
+import java.util.Scanner;
+
+public class App {
+	static Scanner sc=new Scanner(System.in);
+public static void main(String[] args) {
+	int ch;
+
+	do {
+	System.out.println("\n-------------------------------------------------------------");
+	System.out.println(" \n                    Welcome To Linkcode Technology ");
+	System.out.println("\n-------------------------------------------------------------");
+	System.out.println("\nSay 1 To View All Courses ");
+	System.out.println("Say 2 To Enroll A New Courses ");
+	System.out.println("Say 3 To Register To A  Courses ");
+	System.out.println("Say 4 To View All Enrolled Student Info ");
+	System.out.print("Say 5 To Exit :- ");
+	ch=sc.nextInt();
+	switch (ch) {
+	case 1: {
+		
+		
+	}
+	break;
+	case 2: {
+		
+		
+	}
+	break;
+	case 3: {
+		
+		
+	}
+	break;
+    case 4: {
+		
+		
+	}
+	break;
+	
+	}
+	}while(ch==5);
+	
+}
+}

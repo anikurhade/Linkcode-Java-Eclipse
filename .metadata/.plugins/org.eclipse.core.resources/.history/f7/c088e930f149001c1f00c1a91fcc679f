@@ -1,0 +1,9 @@
+package com.entity;
+
+public class Course {
+	int course_id;
+	String course_name;
+	String course_duration;
+	int course_fees;
+	 
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class main {
+Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) {
+		
+	}
+public void ProductCreate() {
+	Product p=new Product();
+	System.out.println("Enter The Product Id :-");
+	p.Prodid=sc.nextInt();
+	System.out.println("Enter The Product Name :-");
+	p.ProdName=sc.next();
+	System.out.println("Enter The Product Price :-");
+	p.ProdPrice=sc.nextFloat();
+	System.out.println("Enter The Product Quanity :-");
+	p.Prodquant=sc.nextInt();
+	
+	
+	
+}
+}

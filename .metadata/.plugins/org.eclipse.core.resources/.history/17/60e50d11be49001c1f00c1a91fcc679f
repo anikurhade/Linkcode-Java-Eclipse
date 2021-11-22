@@ -1,0 +1,8 @@
+package com.entity;
+
+public class Info {
+public void display(Student stud) {
+	System.out.println("\t----------- Student Data-------");
+	System.out.println("");
+}
+}

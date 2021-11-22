@@ -1,0 +1,11 @@
+2021-11-16 13:01:22,902 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2021-11-17 10:23:49,374 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-18 12:06:19,852 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-11-18 12:55:54,770 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-20 10:19:26,204 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-11-20 10:19:26,815 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2021-11-20 14:32:24,444 [Worker-42: Fetching remote refs from git@github.com:anikurhade/Shopping-Application-In-Java.git] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2021-11-20 14:32:24,543 [Worker-42: Fetching remote refs from git@github.com:anikurhade/Shopping-Application-In-Java.git] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2021-11-20 14:32:27,373 [sshd-JGitSshClient[7e67a063]-nio2-thread-2] WARN  o.e.j.i.t.sshd.JGitClientSession - exceptionCaught(JGitClientSession[git@github.com/13.234.210.38:22])[state=Opened] SshException: Server key did not validate
+2021-11-20 14:32:27,377 [sshd-JGitSshClient[7e67a063]-nio2-thread-2] INFO  o.e.j.i.t.sshd.JGitClientSession - Disconnecting(JGitClientSession[git@github.com/13.234.210.38:22]): SSH2_DISCONNECT_HOST_KEY_NOT_VERIFIABLE - Server key did not validate
+2021-11-22 10:00:27,143 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

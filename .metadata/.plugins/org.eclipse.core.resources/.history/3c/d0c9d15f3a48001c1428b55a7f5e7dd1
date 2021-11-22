@@ -1,0 +1,13 @@
+public class mainclass {
+    public static void main(String[] args) {
+        int arr[]=new int[10];
+        System.out.println("Entered Array Is :- ");
+        for (int i = 0; i < args.length; i++)
+         {
+            arr[i]=args[i];
+            System.out.println(""+arr[i]);
+        }
+        
+        
+    }
+}

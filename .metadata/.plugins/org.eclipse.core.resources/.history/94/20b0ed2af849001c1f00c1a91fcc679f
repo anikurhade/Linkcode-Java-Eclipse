@@ -1,0 +1,22 @@
+package com.app;
+
+import com.entity.Course;
+import com.entity.Student;
+
+public class AppEngine {
+	public void introduce(Course course) {
+ 
+    }
+	public Student Acceptdata()
+	{ int id=104;
+		Student s=new Student();
+		System.out.println("\t----------- Enter Student Data-------");
+		s.Stud_ID=id++;
+		System.out.print("Enter Student Name :-  ");
+		s.Stud_Name=sc.next();
+		System.out.print("Enter Student  Date Of Birth:-  ");
+		s.Stud_dob=sc.next();
+		return s;
+		
+	}
+}

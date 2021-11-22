@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;Case Study 3/src&apos;&#x0D;&#x0A;- Original project: &apos;Case study 2&apos;&#x0D;&#x0A;- Destination element: &apos;Case Study 3/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Case study 2/src/com.main&#x0D;&#x0A;     Case study 2/src/com.entity&#x0D;&#x0A;     Case study 2/src/com.app" description="Copy packages" destination="=Case Study 3/src" element1="/src&lt;com.main" element2="/src&lt;com.entity" element3="/src&lt;com.app" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1637570945443" version="1.0"/>
+</session>

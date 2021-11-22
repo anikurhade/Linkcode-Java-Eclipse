@@ -1,0 +1,15 @@
+
+public class thread extends Thread {
+	
+void thread(int a[])
+{
+ for (int i = a.length; i >=0; i--) {
+	System.out.println("\t"+a[i]);
+}
+ new Runnable() {
+	public void run() {
+		thread(a);
+	}
+};
+}
+}

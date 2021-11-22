@@ -1,0 +1,9 @@
+
+public class Shopmain {
+public static void main(String[] args) {
+	Adminclass a=new Adminclass();
+	Customerclass c=new Customerclass();
+	a.start();
+	c.start();
+}
+}

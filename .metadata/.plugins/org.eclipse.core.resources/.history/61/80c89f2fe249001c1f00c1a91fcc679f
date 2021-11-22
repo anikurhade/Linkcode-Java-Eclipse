@@ -1,0 +1,14 @@
+package com.entity;
+
+import java.util.Date;
+
+public class App {
+
+	public static void main(String[] args) {
+	// senrio 1
+		Date d1=new Date();
+		Student s1=new Student(101, "Anirudha Kurhade",d1);
+
+	}
+
+}

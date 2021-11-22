@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Student {
+Scanner sc =new Scanner(System.in);
+
+int studid;
+String studname;
+int s1,s2,s3,tot;
+
+String grade;
+void CreateStudent()
+{
+System.out.println("-: Enter Student Data :-");	
+System.out.print("Student Id  :- ");
+studid=sc.nextInt();
+System.out.print("Student Name :- ");
+studname=sc.next();
+System.out.print("Maths Marks :- ");
+studid=sc.nextInt();
+System.out.print("English Marks :- ");
+studid=sc.nextInt();
+System.out.print("Scienece Marks :- ");
+studid=sc.nextInt();
+
+
+}
+void displaystudentinfo()
+{
+	System.out.println("---------------------Student Id ------------------------");
+	System.out.println("Id:- "+studid+"\tName :- "+studname);
+}
+void Calculateper(int s1,int s2 ,int s3)
+{
+	 int tot=s1+s2+s3;
+	 float per=tot/3;
+	 displayper(tot, per);
+}
+void displayper(int tot,float per)
+{
+	
+}
+void Calcgrade(int per)
+}
+
+

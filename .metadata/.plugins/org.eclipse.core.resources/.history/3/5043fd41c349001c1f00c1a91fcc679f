@@ -1,0 +1,16 @@
+
+public class area extends Thread {
+int l,b;
+double area;
+
+public area(int l, int b, double area) {
+	super();
+	this.l = l;
+	this.b = b;
+	this.area = area;
+}
+
+public void areadis() {
+	area=0.5*l*b;
+}
+}
