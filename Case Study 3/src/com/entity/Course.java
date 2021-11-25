@@ -5,15 +5,31 @@ public class Course {
 	public String course_name;
 	public String course_duration;
 	public int course_fees;
-	public Course(int course_id, String course_name, String course_duration, int course_fees) {
+	public char Feespaid;
+	public Course(int course_id, String course_name, String course_duration, int course_fees, char feespaid) {
 		super();
 		this.course_id = course_id;
 		this.course_name = course_name;
 		this.course_duration = course_duration;
 		this.course_fees = course_fees;
+		Feespaid = feespaid;
 	}
+
+	
 	 
- public int getCourse_id() {
+ public char getFeespaid() {
+		return Feespaid;
+	}
+
+
+
+	public void setFeespaid(char feespaid) {
+		Feespaid = feespaid;
+	}
+
+
+
+public int getCourse_id() {
 		return course_id;
 	}
 

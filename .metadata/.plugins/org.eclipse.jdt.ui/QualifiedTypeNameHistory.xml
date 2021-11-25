@@ -5,7 +5,16 @@
     <fullyQualifiedTypeName name="Student"/>
     <fullyQualifiedTypeName name="Employee"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="Adminclass"/>
+    <fullyQualifiedTypeName name="Customerclass"/>
+    <fullyQualifiedTypeName name="Shopping"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.entity.Admin"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.entity.Course"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.entity.Enroll"/>
     <fullyQualifiedTypeName name="com.entity.Student"/>
 </qualifiedTypeNameHistroy>

@@ -1,9 +1,0 @@
-package com.app;
-
-import com.entity.Course;
-
-public class AppEngine {
-	public void introduce(Course course) {
- 
-    }
-}

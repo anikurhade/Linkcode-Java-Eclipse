@@ -2,11 +2,12 @@
 public class Shopmain {
 public static void main(String[] args) {
 	Shopping s=new Shopping();
-	Adminclass a=new Adminclass(s);
+	Adminclass a=new Adminclass();
 	Customerclass c=new Customerclass(s);
- a.start();
+ Thread t=new Thread(a);
 		c.start();
 	
 	
+		
 }
 }

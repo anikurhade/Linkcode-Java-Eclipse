@@ -6,6 +6,8 @@ public class Enroll {
 	private Student student;
 	private Course course;
 	private String enrollmentDate;
+	
+
 	public Student getStudent() {
 		return student;
 	}
@@ -24,11 +26,13 @@ public class Enroll {
 	public void setEnrollmentDate(String enrollmentDate) {
 		this.enrollmentDate = enrollmentDate;
 	}
-	public Enroll(Student student, Course course, String string) {
+	
+	public Enroll(Student student, Course course, String enrollmentDate) {
 		super();
 		this.student = student;
 		this.course = course;
-		this.enrollmentDate = string;
+		this.enrollmentDate = enrollmentDate;
+	
 	}
 	
 }
