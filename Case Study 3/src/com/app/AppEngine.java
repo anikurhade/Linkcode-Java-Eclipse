@@ -18,7 +18,7 @@ public class AppEngine {
 	LinkedList<Student>sarr=new LinkedList<Student>();
 	LinkedList<Course>c=new LinkedList<Course>();
 	LinkedList<Enroll>eList=new LinkedList<Enroll>();
-	ArrayList<Admin> adminlist=new ArrayList<Admin>(5);
+	ArrayList<Admin> adminlist=new ArrayList<Admin>();
 	LinkedList<Course>Courseenrollist=new LinkedList<Course>();
 	int id=102,temp;
 	Date d1=new Date();
@@ -375,13 +375,10 @@ public class AppEngine {
 		System.out.println(s.getStud_ID()+"\t\t"+s.getStud_Name()+"\t\t"+s.getStud_dob()+"\t\t"+c.getCourse_id()+"\t\t"+c.getCourse_name()+"\t\t"+c.getCourse_fees()+"\t\t"+c.getCourse_duration()+"\t\t"+e.getEnrollmentDate()+"\t\t"+c.getFeespaid());
 		
 	}
-	int sum,billid=100,recalc=0;
+	int sum=0,billid=100,recalc=0;
     public void calculateBill()
     {
-    	if(recalc==1)
-    	{
-    		sum=0;
-    	}	
+    	
     	
        for (Course course : Courseenrollist) {
 		sum=sum+course.getCourse_fees();
@@ -392,6 +389,7 @@ public class AppEngine {
        b.setBillamount(sum);
        b.setGst(sum*0.18);
        b.setFintotal(sum+b.getGst()+b.getGst());
+       recalc=1;
        displayBill(b);
     	
        
