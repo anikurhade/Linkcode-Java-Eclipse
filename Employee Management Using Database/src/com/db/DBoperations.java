@@ -13,8 +13,8 @@ import com.entity.Employee;
 import com.utility.GetConnection;
 
 public class DBoperations {
-	GetConnection g=new GetConnection();
-Connection c=g.Getconnection();
+	
+Connection c=GetConnection.Getconnection();
 Statement s=null;
 static Scanner sc =new Scanner(System.in);
 
